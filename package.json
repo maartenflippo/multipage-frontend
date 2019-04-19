@@ -4,12 +4,14 @@
   "description": "A setup for frontend development with multiple javascript entrypoints and style bundling.",
   "main": "index.js",
   "scripts": {
+    "build": "gulp --gulpfile tasks",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maarten Flippo",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-mode": "^1.0.2",
     "webpack": "^4.30.0"
   }
 }
