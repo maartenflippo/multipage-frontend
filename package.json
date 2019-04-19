@@ -1,0 +1,11 @@
+{
+  "name": "multipage-frontend-starter",
+  "version": "0.0.1",
+  "description": "A setup for frontend development with multiple javascript entrypoints and style bundling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maarten Flippo",
+  "license": "MIT"
+}
