@@ -6,8 +6,10 @@ const input = {
     javascript: path.resolve(__dirname, 'src/javascript/entries'),
 
     styles: {
-        // The directory that holds the style files which act as entry points.
-        directory: path.resolve(__dirname, 'src/styles'),
+        // The input to the style build. Can be an array. If the path is a file,
+        // the file will be input, if the path is a directory, all files within
+        // that directory will be input.
+        files: path.resolve(__dirname, 'src/styles'),
 
         // The preprocessor used for the styles. If null, no preprocessor will
         // be used.
