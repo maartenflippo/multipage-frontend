@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp --gulpfile tasks",
+    "clean": "gulp clean --gulpfile tasks",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maarten Flippo",
   "license": "MIT",
   "devDependencies": {
+    "del": "^4.1.0",
     "gulp": "^4.0.0",
     "gulp-mode": "^1.0.2",
     "webpack": "^4.30.0"
